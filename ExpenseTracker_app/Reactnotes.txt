@@ -1,0 +1,47 @@
+Expense tracker Application(React app), using server(json server) and client
+
+Document - (https://github.com/typicode/json-server)
+Mono repo git -https://semaphoreci.com/blog/what-is-monorepo
+
+
+1.  Create a folder server inside the project folder, go within it in terminal, and run the following
+npm init -y
+npm i json-server
+
+2. Copy db.json in server folder
+
+3. To start the json server, add "start": "json-server db.json --port=4000  --delay 2000", in package.json (--delay 2000 to delay the response for 2 sec)
+
+4. http://localhost:4000/items?_page=1, For pagination, it will display 10 items on page 1
+
+5. Creating client folder using - 
+npx create-react-app client --template typescript
+
+6. Start script for client - 
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+7. Installing Axios and bootstrap - npm i react-bootstrap bootstrap axios
+
+8. Create .env file in client folder
+
+https://react-bootstrap.github.io/components/modal/#live-demo
+
+https://basarat.gitbook.io/typescript/docs/jsx/react.html
+
+Reactiflux.com/learning
+
+Omit generates a new Type of IITem or create another interface IItem without having id.
+
+
+
+
+ 
+
+
+
+
